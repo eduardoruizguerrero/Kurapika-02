@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="kurajsjs.ico" type="image/x-icon">
+    <title>Kuapika!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <section class="container_texto">
+            <article>
+                <h1 id="titleOne"></h1>
+                <h2 id="titleTwo"></h2>
+                <p id="dimeUn"></p>
+                
+            </article>
+        </section>
+        <section class="container_kura">
+            <article>
+                <img src="kurapika.png" width="500" id="kurafoto" /><br>
+                <input type="number" style="width: 480px" id="ryodan" min="1" max="13" enabled/><br>
+                <button onclick="intentoUsuario();" id="send">Enviar número</button>
+                <button onclick="reiniciarJuego();" id="reset" disabled>Nuevo número</button>
+            </article>
+        </section>
+    </div>
+    <div class="links">
+    <footer>
+        <section>
+        <a target="_blank" id="git" href="https://github.com/eduardoruizguerrero">GitHub</a>
+        </section>
+    </footer>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>

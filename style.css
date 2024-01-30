@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: rgb(184, 184, 184);
+}
+/*TITULO UNO*/
+#titleOne {
+    text-align: center;
+    font-family: 'arimo';
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+/*cambia el color del segundo titulo a amarillo*/
+#titleTwo {
+    font-size: 0.53rem;
+    text-align: center;
+    font-family: 'arimo';
+    color: rgb(0, 0, 0);
+}
+/*cambia el color del parrafo a blanco*/
+#dimeUn {
+    white-space: normal;
+    text-align: center;
+    font-family: 'arimo';
+    font-size: 1.1rem;
+    color: rgb(77, 77, 77)
+}
+ /*KURAPIKA*/
+.container_kura {
+    width: 500px;
+    float: none;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+/*botón enviar número*/
+#send {
+    font-family: 'arimo';
+    border: 10px;
+    border-radius: 1rem;
+    width: 248px;
+    height: 80px;
+    background-color: rgb(102, 114, 109);
+    color: rgb(255, 255, 255);
+}
+#send:hover {
+    transition: box-shadow 0.2s ease;
+    box-shadow: 0px 0px 4px rgb(34, 33, 33);
+    cursor: pointer;
+}
+/*botón nuevo número*/
+#reset {
+    font-family: 'arimo';
+    margin-top: 1rem;
+    border: 10px;
+    border-radius: 1rem;
+    width: 248px;
+    height: 80px;
+    background-color: rgb(84, 88, 86);
+    color: rgb(255, 255, 255);
+}
+#reset:hover {
+    transition: box-shadow 0.2s ease;
+    box-shadow: 0px 0px 4px rgb(34, 33, 33);
+    cursor: pointer;
+}
+/*ryodan es la caja de numeros*/
+#ryodan {
+    font-family: 'arimo';
+    font-size: 2rem;
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 10px;
+    border-radius: 1rem;
+    padding: 10px;
+    width: 60px;
+    height: 50px;
+}
+#ryodan:hover {
+    transition: box-shadow 0.2s ease;
+    box-shadow: 0px 0px 4px rgb(34, 33, 33);
+}
+/*cambia el color del hipervinculo y quita su linea*/
+#git {
+    font-family: 'arimo';
+    color: gray;
+    text-decoration: none;
+    
+}
+/*es para centrar el link de github*/
+.links {
+    background-color: rgb(29, 29, 29);
+    margin-top: 4.9rem;
+    padding: 3rem
+}
